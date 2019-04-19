@@ -1,0 +1,92 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+.carousel-inner > .carousel-item.active > .carousel-img {
+	display: block;
+	width: 100%;
+	height:auto;
+}
+.carousel-caption {
+    margin-left: -50%;
+	padding-bottom: 30%
+}
+#page_test_content{
+	top: 100px;
+	text-align: center
+}
+.single-page-test{
+    height: 35rem;    
+    padding-bottom:5%;
+    border:solid;
+    padding-top:5%;
+}
+.mgmt-staff-img {
+    width: 50%;
+    height: auto;
+    margin-left: 25%
+}
+.slider-img {
+    width:100%;
+    max-width: 100%;
+    height: auto;
+}
+.navbar {
+    height: 5rem;
+}
+.navbar-brand {
+    font-size: 2rem;
+}
+.nav-item {
+    font-size: 1.2rem;
+}
+.btn {
+    border-radius: 25px;
+}
+.white-title {
+    color: white;
+}
+.white-text-btn{
+    color:white;
+}
+.dropdown-item {
+    color: white
+}
+.dropdown-menu {
+    background: rgb(0, 0, 0, 0.7);
+}
+.footer {
+    padding-top:5%;
+}
+.footer-bottom {
+    border: solid;
+    border-width: thin;
+    background-color: grey;
+    padding-top:1%;
+}
+.info-board{
+    height:30%;
+}
+.info-board-title{
+    padding-top: 10%;
+    padding-bottom: 5%;
+    color:white;
+    font-size: 7rem;
+}
+.info-board-content{
+    padding-top: 10%;
+    padding-bottom: 5%;
+    color:white;
+    font-size:1.5rem;height:50rem
+}
+.hover-black-content{
+    border:solid;
+    height:100%;
+    width:100%;
+    background-color: black;
+    opacity:0;
+}
+.hover-black-content:hover {
+    opacity:0.5;
+}
