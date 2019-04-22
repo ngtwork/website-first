@@ -1,8 +1,7 @@
 html, body {
-    margin: 0;
-    padding: 0;
-    height: 100%;
+    font-size:16px;
 }
+
 .carousel-inner > .carousel-item.active > .carousel-img {
 	display: block;
 	width: 100%;
@@ -12,15 +11,11 @@ html, body {
     margin-left: -50%;
 	padding-bottom: 30%
 }
-#page_test_content{
-	top: 100px;
-	text-align: center
-}
+
 .single-page-test{
     height: 35rem;    
-    padding-bottom:5%;
-    border:solid;
-    padding-top:5%;
+    padding-bottom:1rem;
+    padding-top:1rem;
 }
 .mgmt-staff-img {
     width: 50%;
@@ -33,16 +28,19 @@ html, body {
     height: auto;
 }
 .navbar {
-    height: 5rem;
+    height:4rem;
+    padding:2rem;
+    padding-left: 2rem
 }
 .navbar-brand {
     font-size: 2rem;
 }
 .nav-item {
-    font-size: 1.2rem;
+    font-size:1.2rem;
 }
-.btn {
-    border-radius: 25px;
+.color-font{
+    font-size: 2rem;
+    color:darkblue;
 }
 .white-title {
     color: white;
@@ -69,16 +67,16 @@ html, body {
     height:30%;
 }
 .info-board-title{
-    padding-top: 10%;
-    padding-bottom: 5%;
+    padding-top: 3rem;
+    padding-bottom: 0rem;
     color:white;
-    font-size: 7rem;
+    font-size: 2rem;
 }
 .info-board-content{
-    padding-top: 10%;
-    padding-bottom: 5%;
+    padding-top: 2rem;
+    padding-bottom: 5rem;
     color:white;
-    font-size:1.5rem;height:50rem
+    font-size:1.2rem;height:50rem
 }
 .hover-black-content{
     border:solid;
