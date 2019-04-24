@@ -1,4 +1,4 @@
-﻿<!doctype html>
+<!doctype html>
 <html lang="en">
   <head>
     <!-- Required meta tags -->
@@ -7,70 +7,84 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
     <link rel="stylesheet" href="../css/custom.css">
+    <script src="../css/iconfont/iconfont.js"></script>
+
     <title>Hello, world!</title>
   </head>
   <body>
-        <nav class="navbar fixed-top navbar-expand-lg navbar-dark ">
-            <a class="navbar-brand mb-0 h1" href="./index.html">NGTech</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+    <div class="social-top-bar">
+		<svg class="icon" aria-hidden="true">
+    		<use xlink:href="#icontwitter"></use>
+		</svg>
+		<svg class="icon" aria-hidden="true">
+    		<use xlink:href="#iconfacebook"></use>
+		</svg>
+		<svg class="icon" aria-hidden="true">
+    		<use xlink:href="#iconyoutube"></use>
+		</svg>
+		<svg class="icon" aria-hidden="true">
+    		<use xlink:href="#iconphone"></use>
+		</svg>
+    </div>
+<nav class="navbar navbar-expand-lg sticky-top navbar-light navbar-right bg-light">
+<!-- <a class="navbar-brand mb-0 h1" href="./index.html" style="color:rgb(31,100,252); font-family: Trebuchet MS;">NGTech</a> -->
+	<a class="navbar-brand mb-0 h1" href="./index.html"><img src="../../pic/logoTransparent-1.png " class="img-fluid" / style="height: 7rem;"></a>
+	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+	    <span class="navbar-toggler-icon"></span>
+	</button>
 
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            About us
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="./about/history.html#about-history">History</a>
-                            <a class="dropdown-item" href="./about/history.html#about-mgmt">MGMT Team</a>
-                            <a class="dropdown-item" href="./about/history.html#about-submit-request">Submit Job Reqs</a>
-                            <a class="dropdown-item" href="./about/history.html#about-submit-resume">Submit Resume</a>
-                        </div>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./blog/blog.html">Blog</a>
-                    </li>
-
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Contact
-                        </a>
-                        <div class="dropdown-menu active" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="./contact/contact.html#contact-location">NGT Location</a>
-                            <a class="dropdown-item" href="./contact/contact.html#contact-mgmt">MGMT Team</a>
-                            <a class="dropdown-item" href="./contact/contact.html#contact-submit-request">Submit Job Reqs</a>
-                            <a class="dropdown-item" href="./contact/contact.html#contact-submit-resume">Submit Resume</a>
-                            <a class="dropdown-item" href="./contact/contact.html#contact-contact">Contact us</a>
-                            <a class="dropdown-item" href="./contact/contact.html#contact-subscribe">Subscribe to Blog</a>
-                        </div>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./services/service.html">Industries Served</a>
-                    </li>
-                </ul>
-                <!-- <form class="form-inline my-2 my-lg-0">
-        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-    </form> -->
+<div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle mr-4" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                About us
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="./about/history.html#about-history">History</a>
+                <a class="dropdown-item" href="./about/history.html#about-mgmt">MGMT Team</a>
+                <a class="dropdown-item" href="./about/history.html#about-submit-request">Submit Job Reqs</a>
+                <a class="dropdown-item" href="./about/history.html#about-submit-resume">Submit Resume</a>
             </div>
-        </nav>
-    
+        </li>
+        <li class="nav-item">
+            <a class="nav-link mr-4" href="./blog/blog.html">Blog</a>
+        </li>
 
-    
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle mr-4" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Contact
+            </a>
+            <div class="dropdown-menu active" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="./contact/contact.html#contact-location">NGT Location</a>
+                <a class="dropdown-item" href="./contact/contact.html#contact-mgmt">MGMT Team</a>
+                <a class="dropdown-item" href="./contact/contact.html#contact-submit-request">Submit Job Reqs</a>
+                <a class="dropdown-item" href="./contact/contact.html#contact-submit-resume">Submit Resume</a>
+                <a class="dropdown-item" href="./contact/contact.html#contact-contact">Contact us</a>
+                <a class="dropdown-item" href="./contact/contact.html#contact-subscribe">Subscribe to Blog</a>
+            </div>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link mr-4" href="./services/service.html">Industries Served</a>
+        </li>
+        <li><button type="button" class="btn custom-btn">LOGIN</button></li>
+    </ul>
+    <!-- <form class="form-inline my-2 my-lg-0">
+    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+</form> -->
+</div>
+</nav>
+
         <div class="container-fluid">
-            <div class="row single-page-test" style="background-image: url(../../pic/People-below-brick-wall-1.jpg)">
+            <div class="row single-page-test" style="background-image: url(../../pic/People-below-brick-wall.jpg);">
                 <div class="col-md-12">
-                    <div class="container-fluid">
                         <div class="row">
-                            </br></br></br></br></br></br></br>
+                            </br></br></br></br>
                         </div>
                         <div class="row">
                             <div class="col-md-2"></div>
-                            <div class="col-md-8 white-title">
+                            <div class="col-md-8 dark-font">
                                 <h1>providing staffing and service solution for IT and BT challenges</h1>
                             </div>
                         </div>
@@ -79,98 +93,73 @@
                         </div>
                         <div class="row">
                             <div class="col-md-2"></div>
-                            <div class="col-md-3"><a href="./callaction/employer.html" class="btn btn-block btn-outline-light btn-lg white-text-btn" role="button" aria-pressed="true">employers learn more here</a></div>
+                            <div class="col-md-3 pb-2"><a href="./callaction/employer.html" class="btn btn-dark btn-block btn-lg" role="button" aria-pressed="true">employers learn more<br> here</a></div>
                             <div class="col-md-2"></div>
-                            <div class="col-md-4"><a href="./callaction/jobseeker.html" class="btn btn-block btn-outline-light btn-lg white-text-btn" role="button" aria-pressed="true">job seekers learn more here</a></div>
+                            <div class="col-md-3 pb-2"><a href="./callaction/jobseeker.html" class="btn btn-dark btn-block btn-lg" role="button" aria-pressed="true">job seekers learn more<br> here</a></div>
                             <div class="col-md-1"></div>
                         </div>
-                    </div>
                 </div>
             </div>
-            </div>
-
-  
-    <div class="container-fluid footer">
-        <div class="row">
-            <div class="col-md-1">
-
+            <div class="row footer" >
+	            <div class="col-md-2">
+	                <div class="row title-font white-title" style="font-size: 2.5rem;">NGTech</div>
+	                <!-- <img src="../../pic/logoTransparent-1.png "/ style="width: 100%"> -->
+	            </div>
+            <div class="col-md-2">
+                <div class="container-fluid white-title title-content ">
+                    <div class="row">About</div>
+                    <div class="row"></br></div>
+                    <div class="row">History</div>
+                    <div class="row"></br></div>
+                    <div class="row">MSMG Team</div>
+                    <div class="row"></div>
+                </div>
             </div>
             <div class="col-md-2">
-                <table class="table table-hover" style="border: 0 solid transparent">
-                    <thead>
-                        <tr>
-                            <th scope="col">About</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>History</td>
-                        </tr>
-                        <tr>
-                            <td>MGMT Team</td>
-                        </tr>
-                        <tr>
-                            <td>Submit Job Request</td>
-                        </tr>
-                        <tr>
-                            <td>Submit Resume</td>
-                        </tr>
-                    </tbody>
-                </table>
+                    <div class="container-fluid white-title title-content">
+                            <div class="row">Contact</div>
+                            <div class="row"></br></div>
+                            <div class="row">NGT Loacation</div>
+                            <div class="row"></br></div>
+                            <div class="row">Contact Us</div>
+                            <div class="row"></div>
+                        </div>
             </div>
             <div class="col-md-2">
-                <table class="table table-hover">
-                    <thead>
-                        <tr>
-                            <th scope="col">Blog</th>
-                        </tr>
-                    </thead>
-                </table>
+                    <div class="container-fluid white-title title-content">
+                            <div class="row">Industries Served</div>
+                            <div class="row"></br></div>
+                            <div class="row">Blog</div>
+                            <div class="row"></br></div>
+                        </div>
             </div>
             <div class="col-md-2">
-                <table class="table table-hover">
-                    <thead>
-                        <tr>
-                            <th scope="col">Contact</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>NGT Location</td>
-                        </tr>
-                        <tr>
-                            <td>MGMT Team</td>
-                        </tr>
-                        <tr>
-                            <td>Submit Job Request</td>
-                        </tr>
-                        <tr>
-                            <td>Submit Resume</td>
-                        </tr>
-                        <tr>
-                            <td>Contact us</td>
-                        </tr>
-                    </tbody>
-                </table>
+                <div class="container-fluid">
+                    <div class="row">
+                        <button type="button" class="btn btn-primary">Submit Resume</button>
+                    </div>
+                    <div class="row"></br></div>
+                    <div class="row">
+                            <button type="button" class="btn btn-primary">Submit Request</button>
+                    </div>   
+                </div>
             </div>
-            <div class="col-md-2">
-                <table class="table table-hover">
-                    <thead>
-                        <tr>
-                            <th scope="col">Industries Served</th>
-                        </tr>
-                    </thead>
-        
-                </table>
-            </div>
-            <div class="col-md-2">Connect with us</div>
-        </div>
-        <div class="row footer-bottom">
-            <div class="col-md-12">
-                <center><p>All rights deserved</p></center>
+            <div class="col-md-2 social-top-bar">
+				<svg class="icon" aria-hidden="true">
+		    		<use xlink:href="#icontwitter"></use>
+				</svg>
+				<svg class="icon" aria-hidden="true">
+		    		<use xlink:href="#iconfacebook"></use>
+				</svg>
+				<svg class="icon" aria-hidden="true">
+		    		<use xlink:href="#iconyoutube"></use>
+				</svg>
+				<svg class="icon" aria-hidden="true">
+		    		<use xlink:href="#iconphone"></use>
+				</svg>
             </div>
         </div>
-    </div>
+     </div>
  
 
 
