@@ -8,72 +8,165 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="../../css/custom.css">
+    <script src="../../css/iconfont/iconfont.js"></script>
+
     <title>Hello, world!</title>
   </head>
   <body>
-      <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
-          <a class="navbar-brand" href="../index.html">NGTech</a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-          </button>
+    <div class="social-top-bar">
+    <svg class="icon" aria-hidden="true">
+        <use xlink:href="#icontwitter"></use>
+    </svg>
+    <svg class="icon" aria-hidden="true">
+        <use xlink:href="#iconfacebook"></use>
+    </svg>
+    <svg class="icon" aria-hidden="true">
+        <use xlink:href="#iconyoutube"></use>
+    </svg>
+    <svg class="icon" aria-hidden="true">
+        <use xlink:href="#iconphone"></use>
+    </svg>
+  </div>
+  <nav class="navbar navbar-expand-lg sticky-top navbar-light navbar-right bg-light">
+  <!-- <a class="navbar-brand mb-0 h1" href="./index.html" style="color:rgb(31,100,252); font-family: Trebuchet MS;">NGTech</a> -->
+    <a class="navbar-brand mb-0 h1" href="../index.html"><img src="../../../pic/logoTransparent-1.png " class="img-fluid" / style="height: 7rem;"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
 
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav mr-auto">
-                  <li class="nav-item dropdown">
-                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                          About us
-                      </a>
-                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                          <a class="dropdown-item" href="../about/history.html#about-history">History</a>
-                          <a class="dropdown-item" href="../about/history.html#about-mgmt">MGMT Team</a>
-                          <a class="dropdown-item" href="../about/history.html#about-submit-request">Submit Job Reqs</a>
-                          <a class="dropdown-item" href="../about/history.html#about-submit-resume">Submit Resume</a>
-                      </div>
-                  </li>
-                  <li class="nav-item">
-                      <a class="nav-link" href="../blog/blog.html">Blog</a>
-                  </li>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle mr-4" href="../about/history.html" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                About us
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="../about/history.html#about-history">History</a>
+                <a class="dropdown-item" href="../about/history.html#about-mgmt">MGMT Team</a>
+                <a class="dropdown-item" href="../about/history.html#about-submit-request">Submit Job Reqs</a>
+                <a class="dropdown-item" href="../about/history.html#about-submit-resume">Submit Resume</a>
+            </div>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link mr-4" href="../blog/blog.html">Blog</a>
+        </li>
 
-                  <li class="nav-item dropdown">
-                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                          Contact
-                      </a>
-                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                          <a class="dropdown-item" href="../contact/contact.html#contact-location">NGT Location</a>
-                          <a class="dropdown-item" href="../contact/contact.html#contact-mgmt">MGMT Team</a>
-                          <a class="dropdown-item" href="../contact/contact.html#contact-submit-request">Submit Job Reqs</a>
-                          <a class="dropdown-item" href="../contact/contact.html#contact-submit-resume">Submit Resume</a>
-                          <a class="dropdown-item" href="../contact/contact.html#contact-contact">Contact us</a>
-                          <a class="dropdown-item" href="../contact/contact.html#contact-subscribe">Subscribe to Blog</a>
-                      </div>
-                  </li>
-                  <li class="nav-item">
-                      <a class="nav-link" href="../services/service.html">Industries Served</a>
-                  </li>
-              </ul>
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle mr-4" href="../contact/contact.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Contact
+            </a>
+            <div class="dropdown-menu active" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="../contact/contact.html#contact-location">NGT Location</a>
+                <a class="dropdown-item" href="../contact/contact.html#contact-mgmt">MGMT Team</a>
+                <a class="dropdown-item" href="../contact/contact.html#contact-submit-request">Submit Job Reqs</a>
+                <a class="dropdown-item" href="../contact/contact.html#contact-submit-resume">Submit Resume</a>
+                <a class="dropdown-item" href="../contact/contact.html#contact-contact">Contact us</a>
+                <a class="dropdown-item" href="../contact/contact.html#contact-subscribe">Subscribe to Blog</a>
+            </div>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link mr-4" href="../services/service.html">Industries Served</a>
+        </li>
+        <li><button type="button" class="btn custom-btn">LOGIN</button></li>
+      </ul>
+        <!-- <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form> -->
+    </div>
+  </nav>
+      <div class="container-fluid">
+          <div class="row single-page-test align-items-center" id="contact-location" style="background-image: url(../../../pic/Simple-world-maps-vector-material-04.png);">
+              <div class="col-md-1">
+              </div>
+              <div class="col-md-3">
+                <center><p class="title3 red-font"><b>NGT</br> Three main offices around the world</b></p></center>
+              </div>
+              <div class="col-md-1">
+              </div>
+              <div class="col-md-7">
+                <div class="row">
+                  <div class="spinner-grow text-danger" role="status">
+                      <span class="sr-only">Loading...</span>
+                    </div>
+                    <p class="titlesmall">Corporate Office</br></p>
+                    <p class="content-font"></br>1701 East Woodfield Road</br>
+                                            Suite 1030</br>
+                                            Schaumburg, Illinois 60173-4151</br>
+                    </p>
+                </div>
+                <div class="row">
+                  <div class="spinner-grow text-danger" role="status">
+                      <span class="sr-only">Loading...</span>
+                    </div>
+                    <p class="titlesmall">East Coast Office</br></p>
+                    <p class="content-font"></br>211 Warren Street</br>
+                                                  Suite 524B</br>
+                                                  Newark, New Jersey 07103-0000</br>
+                    </p>
+                </div>
+                <div class="row">
+                  <div class="spinner-grow text-danger" role="status">
+                      <span class="sr-only">Loading...</span>
+                  </div>
+                    <p class="titlesmall">Corporate Office</br></p>
+                    <p class="content-font"></br>Development & Recruitment Office</br>
+                                            Preet Avenue</br>
+                                            1st & 2nd Floor</br>
+                                            Plot No:  6-3-1216/29</br>
+                                            Methodist Colony</br>
+                                            Kundanbagh, Begumpet,</br>
+                                            Hyperabad - 5000016</br>
+                                            Telangana State</br>
+                    </p>
+                </div>
+              </div>
           </div>
-      </nav>
-
-      <div class="container-fluid single-page-test" id="contact-location">
-          <div class="row">
-              <div class="col-md-12"><center><h2>NGT location</h2></center></div>
+          <div class="row single-page-test" id="about-mgmt">
+            <div class="col-md-12">
+              <div class="row dark-font" >
+                <div class="col-md-12">
+                  <center><h1>Management Team</h1></center></br></br></br>
+                </div>
+              </div>
+              <div class="row ml-5">
+                <div class="col-md-1"></div>
+                <div class="col-md-3">
+                  <div class="staff-board tooltip-custom img-responsive">
+                    <div class="tooltiptext-custom">
+                      <span class="tooltitle"><b>Jim Shaw</b></span>
+                      <p class="staffposition">President</p>
+                      <p class="staffdesc">phone number: </p>
+                    </div>
+                    <img src="../../../pic/jim.jpg" class="img-responsive" style="height: 100%; width: auto"/>
+                    
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="staff-board tooltip-custom" >
+                    <div class="tooltiptext-custom">
+                     <span class="tooltitle">Bill Dorn</span>
+                      <p class="staffposition">Business Development Manager</p>
+                      <p class="staffdesc"></p>
+                    </div>
+                    <img src="../../../pic/bill.jpg" class="tooltip-custom img-responsive" style="height: 100%; width: auto"/>
+                    
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="staff-board tooltip-custom">
+                     <div class="tooltiptext-custom">
+                     <span class="tooltitle">Jonny Depp</span>
+                      <p class="staffposition">I'm just a hot guy</p>
+                      <p class="staffdesc"></p>
+                    </div>
+                    <img src="../../../pic/jonny.jpg" class="img-responsive" style="height: 100%; width: auto"/>
+                  </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
-          <div class="row">
-              <div class="col-md-1"></div>
-              <div class="col-md-10"><p></p></div>
-          </div>
-          <div class="col-md-1"></div>
-      </div>
-
-      <div class="container-fluid single-page-test" id="contact-mgmt">
-          <div class="row">
-              <div class="col-md-12"><center><h2>MGMT Team</h2></center></div>
-          </div>
-          <div class="row">
-              <div class="col-md-1"></div>
-              <div class="col-md-10"><p></p></div>
-          </div>
-          <div class="col-md-1"></div>
       </div>
 
       <div class="container-fluid single-page-test" id="contact-submit-request">
@@ -148,28 +241,71 @@
                   </form>
               </div>
           </div>
-      </div>
-
-      <div class="container-fluid single-page-test" id="contact-contact">
-          <div class="row">
-              <div class="col-md-12"><center><h2>Contact</h2></center></div>
-          </div>
-          <div class="row">
-              <div class="col-md-1"></div>
-              <div class="col-md-10"><p></p></div>
-          </div>
-          <div class="col-md-1"></div>
-      </div>
-
-      <div class="container-fluid single-page-test" id="contact-subscribe">
-          <div class="row">
+            <div class="row single-page-test" id="contact-contact">
+                <div class="col-md-12"><center><h2>Contact</h2></center></div>
+            </div>
+            <div class="row single-page-test" id="contact-subscribe">
               <div class="col-md-12"><center><h2>Subscribe to Blog</h2></center></div>
           </div>
-          <div class="row">
-              <div class="col-md-1"></div>
-              <div class="col-md-10"><p></p></div>
+          <div class="row footer" >
+        <div class="col-md-2">
+            <div class="row title-font white-title" style="font-size: 2.5rem;">NGTech</div>
+            <!-- <img src="../../pic/logoTransparent-1.png "/ style="width: 100%"> -->
+        </div>
+        <div class="col-md-2">
+          <div class="container-fluid white-title title-content ">
+              <div class="row">About</div>
+              <div class="row"></br></div>
+              <div class="row">History</div>
+              <div class="row"></br></div>
+              <div class="row">MSMG Team</div>
+              <div class="row"></div>
           </div>
-          <div class="col-md-1"></div>
+        </div>
+        <div class="col-md-2">
+                <div class="container-fluid white-title title-content">
+                        <div class="row">Contact</div>
+                        <div class="row"></br></div>
+                        <div class="row">NGT Loacation</div>
+                        <div class="row"></br></div>
+                        <div class="row">Contact Us</div>
+                        <div class="row"></div>
+                    </div>
+        </div>
+        <div class="col-md-2">
+                <div class="container-fluid white-title title-content">
+                        <div class="row">Industries Served</div>
+                        <div class="row"></br></div>
+                        <div class="row">Blog</div>
+                        <div class="row"></br></div>
+                    </div>
+        </div>
+        <div class="col-md-2">
+            <div class="container-fluid">
+                <div class="row">
+                    <button type="button" class="btn btn-primary">Submit Resume</button>
+                </div>
+                <div class="row"></br></div>
+                <div class="row">
+                        <button type="button" class="btn btn-primary">Submit Request</button>
+                </div>   
+            </div>
+        </div>
+        <div class="col-md-2 social-top-bar">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#icontwitter"></use>
+            </svg>
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#iconfacebook"></use>
+            </svg>
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#iconyoutube"></use>
+            </svg>
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#iconphone"></use>
+            </svg>
+        </div>
+      </div>
       </div>
 
       <!-- Optional JavaScript -->
