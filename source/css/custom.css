@@ -9,6 +9,11 @@ html, body {
     --other-color-red:rgb(213,86,83);
     --other-color-green:rgb(52,123,126);
 }
+ a:link { text-decoration: none;
+    color:white;}
+　　 a:active { text-decoration:blink}
+　　 a:hover { color: lighter} 
+　　 a:visited { text-decoration: none;color: green}
 /*others*/
 .icon {
    width: 1em; height: 1em;
@@ -20,7 +25,7 @@ html, body {
 /*font*/
 .title1{
     font-family: sans-serif;
-    line-height: 5rem;
+    line-height: 5.5rem;
     font-size:5rem;
 }
 .title2{
@@ -135,7 +140,8 @@ html, body {
     background-color:rgb(31,100,252)
 }
 .color-board{
-    height:25rem;
+    padding:5%;
+    height:auto;
 }
 .mgmt-staff-img {
     width: 50%;
@@ -188,6 +194,38 @@ html, body {
     border-radius: 8px;
     box-shadow: 0 8px 16px 0 #D55653;
 
+}
+.blog-intro{
+    margin-left:2rem;
+    margin-bottom: 2rem;
+    padding: 5%;
+    height: 100%;
+    width: 100%;
+    /*color:var(--other-color-red);*/
+    color:white;
+    border: solid;
+    border-color: var(--other-color-red);
+    border-width: 1px;
+}
+.blog-intro:hover {
+    box-shadow: 0 8px 16px 0 #D55653;
+
+}
+.blog-intro-title {
+    font-family: serif;
+    font-size:3rem;
+}
+.blog-intro-content {
+    font-family: serif;
+    font-size:1.5rem;
+    font-weight: 300;
+}
+.icon-board{
+    text-align: center;
+    font-size: 7rem;
+}
+.service-board h3{
+    text-align: center;
 }
 /*slides*/
 .bd-example {
@@ -286,6 +324,7 @@ html, body {
 /*footer*/
 .footer {
     background-color: var(--main-color-dk);
+    height: auto;
     padding: 5rem;
 }
 .footer-bottom {

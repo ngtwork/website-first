@@ -7,53 +7,108 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="../css/custom.css">
+    <link rel="stylesheet" href="../../css/custom.css">
+    <script src="../../css/iconfont/iconfont.js"></script>
     <title>Hello, world!</title>
   </head>
   <body>
-    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
-  <a class="navbar-brand" href="../index.html">NGTech</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
+     <div class="social-top-bar">
+    <svg class="icon" aria-hidden="true">
+        <use xlink:href="#icontwitter"></use>
+    </svg>
+    <svg class="icon" aria-hidden="true">
+        <use xlink:href="#iconfacebook"></use>
+    </svg>
+    <svg class="icon" aria-hidden="true">
+        <use xlink:href="#iconyoutube"></use>
+    </svg>
+    <svg class="icon" aria-hidden="true">
+        <use xlink:href="#iconphone"></use>
+    </svg>
+    </div>
+    <nav class="navbar navbar-expand-lg sticky-top navbar-light navbar-right bg-light">
+<!-- <a class="navbar-brand mb-0 h1" href="./index.html" style="color:rgb(31,100,252); font-family: Trebuchet MS;">NGTech</a> -->
+      <a class="navbar-brand mb-0 h1" href="./index.html"><img src="../../../pic/logoTransparent-1.png " class="img-fluid image-responsice" / style="height: 5rem; margin-top: auto;"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+      </button>
 
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          About us
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="../about/history.html#about-history">History</a>
-            <a class="dropdown-item" href="../about/history.html#about-mgmt">MGMT Team</a>
-            <a class="dropdown-item" href="../about/history.html#about-submit-request">Submit Job Reqs</a>
-            <a class="dropdown-item" href="../about/history.html#about-submit-resume">Submit Resume</a>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle mr-4" href="./about/history.html" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                        About us
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="./about/history.html#about-history">History</a>
+                        <a class="dropdown-item" href="./about/history.html#about-mgmt">MGMT Team</a>
+                        <a class="dropdown-item" href="./about/history.html#about-submit-request">Submit Job Reqs</a>
+                        <a class="dropdown-item" href="./about/history.html#about-submit-resume">Submit Resume</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link mr-4" href="./blog/blog.html">Blog</a>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle mr-4" href="./contact/contact.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Contact
+                    </a>
+                    <div class="dropdown-menu active" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="./contact/contact.html#contact-location">NGT Location</a>
+                        <a class="dropdown-item" href="./contact/contact.html#contact-mgmt">MGMT Team</a>
+                        <a class="dropdown-item" href="./contact/contact.html#contact-submit-request">Submit Job Reqs</a>
+                        <a class="dropdown-item" href="./contact/contact.html#contact-submit-resume">Submit Resume</a>
+                        <a class="dropdown-item" href="./contact/contact.html#contact-contact">Contact us</a>
+                        <a class="dropdown-item" href="./contact/contact.html#contact-subscribe">Subscribe to Blog</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link mr-4" href="./services/service.html">Industries Served</a>
+                </li>
+                <li><button type="button" class="btn custom-btn">LOGIN</button></li>
+            </ul>
+            <!-- <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form> -->
         </div>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="../blog/blog.html">Blog</a>
-      </li>
-      
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Contact
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="../contact/contact.html#contact-location">NGT Location</a>
-            <a class="dropdown-item" href="../contact/contact.html#contact-mgmt">MGMT Team</a>
-            <a class="dropdown-item" href="../contact/contact.html#contact-submit-request">Submit Job Reqs</a>
-            <a class="dropdown-item" href="../contact/contact.html#contact-submit-resume">Submit Resume</a>
-            <a class="dropdown-item" href="../contact/contact.html#contact-contact">Contact us</a>
-            <a class="dropdown-item" href="../contact/contact.html#contact-subscribe">Subscribe to Blog</a>
+    </nav>
+    <div class="container-fluid">
+      <div class="row single-page-test" style="background-image: url(../../../pic/online-tools-entrepreneurs.jpg); background-size: cover;">
+        <div class="col-md-12">
+          <div class="row">
+            <div class="col-md-10" style="border-bottom: solid 1px rgb(213,86,83);"><span class="white-font titlesmall">BLOGS POST</span></div>
+          </div>
+          <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-8">
+              <p class="red-font title1"><b></br>Subscribe our blog and get recent news of NGT</b></p>
+            </div>
+          </div>
         </div>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="../services/service.html">Industries Served</a>
-      </li>
-    </ul>
-  </div>
-</nav>
-  <h1> this is blog page </h1>
+      </div>
+      <div class="row single-page-test">
+        <div class="col-md-1">
+        </div>
+        <div class="col-md-5 blog-intro">
+          <div class="row blog-intro-title">this is a test</div>
+          <div class="row blog-intro-content">this is content</div>
+        </div>
+        <div class="col-md-5 blog-intro">
+          <div class="row blog-intro-title">this is a test</div>
+          <div class="row blog-intro-content">this is content</div>
+        </div>
+        <div class="col-md-5 blog-intro">
+          <div class="row blog-intro-title">this is a test</div>
+          <div class="row blog-intro-content">this is content</div>
+        </div>
+        <div class="col-md-5 blog-intro">
+          <div class="row blog-intro-title">this is a test</div>
+          <div class="row blog-intro-content">this is content</div>
+        </div>
+      </div>
+    </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
