@@ -34,7 +34,7 @@ html, body {
 }
 .title3{
      font-family: sans-serif;
-     line-height: 2.5rem;
+     line-height: 1.5rem;
     font-size:2rem;
 }
 .titlesmall{
@@ -148,17 +148,20 @@ html, body {
     height:auto;
 }
 .mgmt-staff-img {
-    width: 50%;
-    height: auto;
-    margin-left: 25%
+    height:20rem;
+    width:15rem;
+    overflow: hidden;
 }
 .staff-board{
-    height: 22rem; 
+    /*height: 25rem; */
     overflow: hidden;
-    width: auto;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /*width: auto;*/
+    /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
 }
+.staff-board:hover{
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
+}
 .staff-board .staff-title{
     margin-bottom: 0;
     height: 20%;
@@ -274,6 +277,20 @@ html, body {
 }
 
 /*components*/
+@keyframe showme {
+    from{visibility: hidden;}
+    to{visibility: visible;}
+}
+@-webkit-keyframes myfirst {
+    from{visibility: hidden;}
+    to{visibility: visible;}
+}
+.call-action-btn-home{
+     animation-name: myfirst;
+     animation-duration: 1s;
+     -webkit-animation-name: myfirst;
+     -webkit-animation-duration: 1s;
+}
 .custom-btn{
     color:white;
     background-color: var(--main-color-lt);
