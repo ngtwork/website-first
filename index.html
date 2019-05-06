@@ -1,4 +1,4 @@
-<!doctype html>
+﻿<!doctype html>
 <html lang="en">
   <head>
     <!-- Required meta tags -->
@@ -7,13 +7,13 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="../css/custom.css">
-    <script src="../css/iconfont/iconfont.js"></script>
+    <link rel="stylesheet" href="./css/custom.css">
+    <script src="./css/iconfont/iconfont.js"></script>
 
     <title>Hello, world!</title>
   </head>
   <body>
-    <div class="social-top-bar">
+    <!--<div class="social-top-bar">
         <a href="https://twitter.com/NGTech5">
     		<svg class="icon" aria-hidden="true">
         		<use xlink:href="#icontwitter"></use>
@@ -30,10 +30,9 @@
             </svg>
         </a>&nbsp&nbsp
         <span>847-454-0900</span>
-    </div>
+    </div>-->
     <nav class="navbar js-sticky-header navbar-expand-lg sticky-top navbar-light navbar-right bg-light">
-<!-- <a class="navbar-brand mb-0 h1" href="./index.html" style="color:rgb(31,100,252); font-family: Trebuchet MS;">NGTech</a> -->
-    	<a class="navbar-brand mb-0 h1" href="./index.html"><img src="../../pic/output-onlinepngtools.png " class="img-fluid image-responsive" style="height: 4rem;/"></a>
+    	<a class="navbar-brand mb-0 h1" href="./index.html"><img src="./pic/output-onlinepngtools.png " class="img-fluid image-responsive" style="height: 4rem;/"></a>
     	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     	    <span class="navbar-toggler-icon"></span>
     	</button>
@@ -41,35 +40,38 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle mr-4" href="./about/history.html" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                    <a class="nav-link dropdown-toggle mr-4" href="./history.html" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
                         about
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="./about/history.html#about-history">History</a>
-                        <a class="dropdown-item" href="./about/history.html#about-mgmt">MGMT Team</a>
-                        <a class="dropdown-item" href="./about/history.html#about-submit-request">Submit Job Reqs</a>
-                        <a class="dropdown-item" href="./about/history.html#about-submit-resume">Submit Resume</a>
+                        <a class="dropdown-item" href="./history.html#about-history">History</a>
+                        <a class="dropdown-item" href="./history.html#about-mgmt">MGMT Team</a>
+                        <a class="dropdown-item" href="./history.html#about-submit-request">Submit Job Reqs</a>
+                        <a class="dropdown-item" href="./history.html#about-submit-resume">Submit Resume</a>
                     </div>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link mr-4" href="./blog/blog.html">blog</a>
+                    <a class="nav-link mr-4" href="./blog.html">blog</a>
                 </li>
 
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle mr-4" href="./contact/contact.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <a class="nav-link dropdown-toggle mr-4" href="./contact.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         contact
                     </a>
                     <div class="dropdown-menu active" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="./contact/contact.html#contact-location">NGT Locations</a>
-                        <a class="dropdown-item" href="./contact/contact.html#contact-mgmt">MGMT Team</a>
-                        <a class="dropdown-item" href="./contact/contact.html#contact-submit-request">Submit Job Reqs</a>
-                        <a class="dropdown-item" href="./contact/contact.html#contact-submit-resume">Submit Resume</a>
-                        <a class="dropdown-item" href="./contact/contact.html#contact-contact">Contact us</a>
-                        <a class="dropdown-item" href="./contact/contact.html#contact-subscribe">Subscribe to Blog</a>
+                        <a class="dropdown-item" href="./contact.html#contact-location">NGT Locations</a>
+                        <a class="dropdown-item" href="./contact.html#contact-mgmt">MGMT Team</a>
+                        <a class="dropdown-item" href="./contact.html#contact-submit-request">Submit Job Reqs</a>
+                        <a class="dropdown-item" href="./contact.html#contact-submit-resume">Submit Resume</a>
+                        <a class="dropdown-item" href="./contact.html#contact-contact">Contact us</a>
+                        <a class="dropdown-item" href="./contact.html#contact-subscribe">Subscribe to Blog</a>
                     </div>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link mr-4" href="./services/service.html">industries served</a>
+                    <a class="nav-link mr-4" href="./service.html">industries served</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link mr-4" href="#" style="color:black;">847-454-0900</a>
                 </li>
                 <!-- <li><button type="button" class="btn custom-btn">LOGIN</button></li> -->
             </ul>
@@ -81,11 +83,8 @@
     </nav>
 
         <div class="container-fluid">
-            <div class="row single-page-test" style="height: 40rem; background-image: url(../../pic/People-below-brick-wall.jpg);background-size: cover;">
+            <div class="row single-page-test" style="height: 40rem; background-image: url(./pic/Peoplebelowbrickwall.jpg);background-size: cover;">
                 <div class="col-md-12">
-                        <div class="row">
-                            </br></br></br></br>
-                        </div>
                         <div class="row">
                             <div class="col-md-1"></div>
                             <div class="col-md-10 dark-font">
@@ -93,8 +92,8 @@
                             </div>                           
                         </div>
                         <div class="row">
-                            <div class="col-md-4"></div>
-                            <div class="col-md-8 dark-font">
+                            <!--<div class="col-md-4"></div>-->
+                            <div class="col-md-11 text-right dark-font">
                                 <h1>for IT, BT, and Engineering challenges</h1>
                             </div>
                         </div>
@@ -103,56 +102,46 @@
                         </div>
                         <div class="row">
                             <div class="col-md-2"></div>
-                            <div class="col-md-3 pb-2"><a href="./callaction/employer.html" class="btn btn-dark btn-block btn-lg call-action-btn-home" role="button" aria-pressed="true"><b class="titlesmall">employers</b> <br>learn more here</a></div>
+                            <div class="col-md-3 pb-2"><a href="./employer.html" class="btn btn-dark btn-block btn-lg call-action-btn-home" role="button" aria-pressed="true"><b class="titlesmall">employers</b> <br>learn more here</a></div>
                             <div class="col-md-2"></div>
-                            <div class="col-md-3 pb-2"><a href="./callaction/jobseeker.html" class="btn btn-dark btn-block btn-lg call-action-btn-home" role="button" aria-pressed="true"><b class="titlesmall">job seekers</b> <br>learn more here</a></div>
+                            <div class="col-md-3 pb-2"><a href="./jobseeker.html" class="btn btn-dark btn-block btn-lg call-action-btn-home" role="button" aria-pressed="true"><b class="titlesmall">job seekers</b> <br>learn more here</a></div>
                             <div class="col-md-1"></div>
                         </div>
                 </div>
             </div>
-    <div class="row footer" >
-        <div class="col-md-2">
-            <div class="row title-font white-title" style="font-size: 2.5rem;">NG Tech</div>
+    <div class="row footer align-items-start" >
+        <div class="col-md-2" style="margin-top:-2.5%;">
+            <p class="title-font white-title" style="font-size: 2.5rem; padding-bottom:20%;">NG Tech</p>
+            <!--<div class="row align-items-start title-font white-title" style="font-size: 2.5rem; border:solid">NG Tech</div>-->
             <!-- <img src="../../pic/logoTransparent-1.png "/ style="width: 100%"> -->
+            
         </div>
-        <div class="col-md-2">
-          <div class="container-fluid white-title title-content ">
-              <div class="row"><a href="./about/history.html">About</a></div>
+        <div class="col-md-2 white-title title-content" >
+              <div class="row"><a href="./history.html">About</a></div>
               <div class="row"></br></div>
-              <div class="row"><a href="./about/history.html/#about-history">History</a></div>
+              <div class="row"><a href="./history.html">History</a></div>
               <div class="row"></br></div>
-              <div class="row"><a href="./about/history.html/#about-mgmt">Management Team</a></div>
-              <div class="row"></div>
-          </div>
+              <div class="row"><a href="./history.html#about-mgmt">Management Team</a></div>
         </div>
-        <div class="col-md-2">
-                <div class="container-fluid white-title title-content">
-                        <div class="row"><a href="./contact/contact.html">Contact</a></div>
-                        <div class="row"></br></div>
-                        <div class="row"><a href="./contact/contact.html#contact-location">Loacations</a></div>
-                        <div class="row"></br></div>
-                        <!-- <div class="row"><a href="./contact/contact.html#contact-contact">Contact Us</a></div> -->
-                        <div class="row"></div>
-                    </div>s
+        <div class="col-md-2 white-title title-content">
+            <div class="row"><a href="./contact.html">Contact</a></div>
+            <div class="row"></br></div>
+            <div class="row"><a href="./contact.html#contact-location">Loacations</a></div>
         </div>
-        <div class="col-md-2">
-                <div class="container-fluid white-title title-content">
-                        <div class="row"><a href="./services/service.html">Industries Served</a></div>
-                        <div class="row"></br></div>
-                        <div class="row"><a href="./blog/blog.html">Blog</a></div>
-                        <div class="row"></br></div>
-                    </div>
+        <div class="col-md-2 white-title title-content">
+            <div class="row"><a href="./service.html">Industries Served</a></div>
+            <div class="row"></br></div>
+            <div class="row"><a href="./blog.html">Blog</a></div>
+       
         </div>
-        <div class="col-md-2">
-            <div class="container-fluid">
-                <div class="row">
-                    <a href="./about/history.html#about-submit-resume"><button type="button" class="btn btn-primary">Submit Resume</button></a>
-                </div>
-                <div class="row"></br></div>
-                <div class="row">
-                        <a href="./about/history.html#about-submit-request"><button type="button" class="btn btn-primary">Submit Request</button></a>
-                </div>   
+        <div class="col-md-2 white-title title-content">
+            <div class="row">
+                <a href="./history.html#about-submit-resume"><button type="button" class="btn btn-primary">Submit Resume</button></a>
             </div>
+            <div class="row"></br></div>
+            <div class="row">
+                    <a href="./history.html#about-submit-request"><button type="button" class="btn btn-primary">Submit Job Req</button></a>
+            </div>   
         </div>
         <div class="col-md-2 social-foot-bar">
             <div class="row">
@@ -175,16 +164,15 @@
                 <span>847-454-0900</span>
               </div>
             </div>
-            <div class="row"></br></div>
             <div class="row">
               <div class="col-md-12">
-                <a href="https://www.wbenc.org/"><img style="height: 4rem; width: auto" class="img-responsive" src="../../pic/wben-org-header.png" /></a>
+                <a href="https://www.wbenc.org/"><img style="height: 4rem; width: auto" class="img-responsive" src="./pic/wben-org-header.png" /></a>
             </div>
             </div>
         </div>
     </div>
         </div>
-     </div>
+    
  
 
 
